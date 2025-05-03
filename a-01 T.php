@@ -55,12 +55,16 @@ if($cercano_a < $cercano_b){
 }
 echo "<br>";
 //4
+echo "<table>";
 for($i=1;$i<=6;$i++){
+    echo "<tr>";
     for($j=1;$j<=6;$j++){
-        echo $i*$j." ";
+        echo "<td stylel='text-align: right'>";
+        echo $i*$j."&emsp;";
+        echo "</td>";
         if($j%6 == 0){
-            echo "<br>";
+            echo "</tr>";
         }
     }
 }
-##MEJORANDO
+echo "</table>";
