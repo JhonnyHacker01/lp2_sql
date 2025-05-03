@@ -3,7 +3,7 @@ LABORTORIO 1
 ### **1. Mostrar los nombres y apellidos de los profesores de una facultad**
 
 ```sql
-SELECT nombres, apellidos
+SELECT nombres, apellido
 FROM usuario
 WHERE tipo = 'profesor';
 ```
